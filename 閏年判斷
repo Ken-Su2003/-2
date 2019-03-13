@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int n;  //變數n
+cin>>n;
+if(n%4!=0) //如果n不是4的倍數
+cout<<"NO"<<endl; //YES為閏年,NO為平年
+if(n%4==0&&n%100!=0)//如果n是4的倍數但不是100的倍數
+cout<<"YES"<<endl;
+if(n%100==0&&n%400!=0) //如果n是100的倍數但不是400的倍數
+cout<<"NO"<<endl;
+if(n%400==0) //如果n是400的倍數
+cout<<"YES"<<endl;
+
+}

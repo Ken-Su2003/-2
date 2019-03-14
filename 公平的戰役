@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int n,A,B; 
+cin>>n;
+while(n--) //不知道目前是第幾組資料,如要計算可用for
+{
+cin>>A>>B;
+if(A>B) //當A人數大於B時
+cout<<"A"<<" "<<A-B<<endl; //輸出A多幾人
+if(A<B) //當B人數大於A時
+cout<<"B"<<" "<<B-A<<endl; //輸出B多幾人
+if(A==B) //當兩方人數相同時
+cout<<"0"<<endl; //輸出多出0人
+
+}
+}

@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int n,cnt;
+cin>>n;
+cnt=1;
+
+while(n != 1) //當n不等於1時
+{
+   if(n%2==0) n/=2; //如果n為偶數 則下一向為n/2
+  else n = n*3+1;  //其餘的將n*3+1
+  ++cnt ;
+}
+cout<<cnt;
+}

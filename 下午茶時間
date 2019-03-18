@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int H,M,n; //三個變數分別為小時,分鐘,小時+分鐘
+cin>>H>>M>>n;
+n = H*60+M; //以分鐘為單位
+if( n>=870 && n<=1010) //如果總時間介於870~1010(14:30~16:50)
+cout<<"YES"<<endl; //則輸出YES
+else
+cout<<"NO"<<endl; //其餘的則輸出NO
+
+}

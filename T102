@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{ 
+     double a, b; // float a, b ,total; 未宣告total 
+     printf("請輸入兩個浮點數:");
+     scanf("%d %d", a, b); //scanf("%f %f", &a, &b); %d是整數 
+     total = a+b;
+     printf("total=%f", total);
+     return 0;
+}
